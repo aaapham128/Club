@@ -1,0 +1,23 @@
+body {
+  background-color: LightSkyBlue;
+}
+
+h1 {
+  text-align: left;
+  font-size: 50
+}
+
+div {
+  text-align: left;
+  font-size: 25;
+}
+
+img {
+  border-style: dashed;
+  border-width: medium;
+}
+
+button {
+  float: right;
+  width: 10em;
+  height: 3em

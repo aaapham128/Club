@@ -1,0 +1,38 @@
+body {
+  background-color: LightSalmon;
+}
+
+h1 {
+  text-align: left;
+  font-size: 50
+}
+
+h3 {
+  text-align: left;
+  font-size: 40;
+}
+
+div {
+  text-align: left;
+  font-size: 21;
+}
+
+img {
+  border-style: dashed;
+  border-width: medium;
+}
+
+h3 {
+  font-size: 30;
+  color: Navy;
+}
+
+#slogan {
+  text-align: left;
+  font-size: 25;
+}
+
+button {
+  float: right;
+  width: 10em;
+  height: 3em
