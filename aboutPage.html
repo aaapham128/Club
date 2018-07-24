@@ -3,25 +3,37 @@
 <link rel="stylesheet" type="text/css" href="CSS/styleAbout.css">
   </head>
 <body>
+  <!-- <div>
+    <form>
+      <input class="go back" type= "button" value="Go Back" onclick = "window.location.href='C:\Users\Girls Who Code\Desktop\BusinessProject\aboutPage.html'"/>
+    </form>
+  </div> -->
   <h1>About Page
-    <button id="socials">Contact us</button>
-    <button id="member">Sign Up</button>
-    <button id="learnSkills"> Common Skills to Learn</button>
-    <button id="learnSkills">Home</button>
+    <form method ="get" action ="contactUs.html">
+        <button id="socials" onclick="socialFunction()">Contact us</button>
+    </form>
+
+    <form method ="get" action ="Signup.html">
+      <button> Sign Up</button>
+    </form>
+
+    <form method ="get" action = "skills.html">
+      <button id="learnSkills" onclick= "learnFunction()">Common Skills to Learn</button>
+    </form>
+
+    <form method = "get" action= "club.html">
+      <button id ="home"> Home </button>
+    </form>
     <!-- <button onclick="about()" id="aboutMore"> About Page</button> -->
   </h1>
-  <script src="JS/About.js"></script>
+
   <img src="Images/collab.png" height="400" width="550">
 
-  <div>Exchange ideas with a fellow learners at your level!</div>
+  <div>Co-Learning uses <strong>chat boxes</strong> to provide our users a quick and effective communication.</div>
 
-  <div>Keep the creative juices flowin'</div>
+  <div>Your <strong>safety</strong> is important to us and is our <em>priority</em> to protect it. Members should focus on improving their skillset while being <em>respectful</em> and <em>safe</em>.</div>
 
-<div>Share your projects with a friend on the site.</div>
+  <div>Our company partners up with tech companies and online classes platforms to guide your skill learning journey together with a new friend.</div>
 
-<div>Give and get feedback on projects.</div>
-
-<div>Learn from others' experiences and challenges.</div>
-
-<script src="JS/About.js"></script>
+<!-- <script src="C:\Users\Girls Who Code\Desktop\BusinessProject\JS\About.js"></script> -->
 </body>

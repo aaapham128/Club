@@ -1,6 +1,19 @@
-alert("This is an alert box.");
+alert("Welcome to the Co-Learning website!");
 
-var myAbout = document.getElementById("aboutMore").id;
-var mySkills = document.getElementById("learnSkills").id;
-var mySignup = document.getElementById("member").id;
-var myContact document.getElementById("socials").id;
+function AboutFunction() {
+  var myAbout= document.getElementById("aboutMore").innerHTML = "Chicken";
+}
+
+function learnFunction() {
+  var mySkills = document.getElementById("learnSkills").innerHTML = "Bacon";
+}
+
+function memberFunction() {
+  var mySignup = document.getElementById("member").innerHTML = "Fudge"
+}
+
+function socialFunction() {
+  var myContact = document.getElementById("socials").innerHTML = "Gummy Bears"
+}
+
+// add comment or username prompts

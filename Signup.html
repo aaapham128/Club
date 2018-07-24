@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/styleSignup.css">
+</head>
+
+<body>
+  <h1>Start Co-Learning Today!
+    <form method ="get" action ="contactUs.html">
+        <button id="socials" onclick="socialFunction()">Contact us</button>
+    </form>
+
+    <form method ="get" action ="skills.html">
+      <button id="learnSkills" onclick= "learnFunction()">Common Skills to Learn</button>
+    </form>
+
+    <form method ="get" action = "aboutPage.html">
+      <button id="aboutMore" onclick="AboutFunction()">About Page</button>
+    </form>
+
+    <form method = "get" action= "club.html">
+      <button id ="home"> Home </button>
+    </form>
+  </h1>
+
+  <form id="form" action="Signup.html">
+    <label for="fname">First Name</label>
+    <div> </div>
+  <input type="text" <textarea placeholder="Enter your first name..." required></textarea> </input>
+    <div> </div>
+  <label for="fname"> Last Name </label>
+  <div> </div>
+    <input type="text" <textarea placeholder="Enter your last name..." required></textarea> </input>
+    <div> </div>
+
+  <select id="skillset" name="Select Skill to Learn">
+    <option value="PS">Photoshop</option>
+    <option value="cam">Photography</option>
+    <option value="web">Web Design</option>
+    <option value="scratch">Computer coding (Scratch)</option>
+    <option value="py">Computer coding (Python)</option>
+    <option value="math">Math</option>
+    <option value="cook">Cooking</option>
+  </select>
+
+  <select id="level" name="Select Skill level">
+    <option value="start">Absolute Beginner</option>
+    <option value="begin">Beginner</option>
+    <option value="middle">Intermediate</option>
+    <option value="adv">Advanced</option>
+  </select>
+  <div> </div>
+  <input type="button" onclick="submitSign" value="Submit">
+</form>
+
+  <!-- sign up
+
+  Username
+  Password
+  Skill to learn (drop down)
+  Skill level (absolute beginner, beginner, intermediate, advanced) -->
+
+</body>

@@ -1,0 +1,23 @@
+body {
+  background-color: Aquamarine;
+}
+
+h2 {
+  text-align: left;
+  font-size: 40;
+}
+
+li {
+  text-align: left;
+  font-size: 30;
+}
+
+img {
+  border-style: dashed;
+  border-width: medium;
+}
+
+button {
+  float: right;
+  width: 10em;
+  height: 3em

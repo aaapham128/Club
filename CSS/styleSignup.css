@@ -1,0 +1,26 @@
+body {
+  background-color: Plum;
+}
+
+h1 {
+  text-align: left;
+  font-size: 50;
+}
+
+
+button {
+  float: right;
+  width: 10em;
+  height: 3em
+}
+
+input[type=text] {
+  width: 60%;
+  padding: 6px 4px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 20;
+}
