@@ -21,3 +21,8 @@ button {
   float: right;
   width: 9em;
   height: 3em
+
+h3 {
+  text-align:left;
+  font-size: 25;
+}
